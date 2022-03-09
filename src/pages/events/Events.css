@@ -1,0 +1,150 @@
+.events{
+    position: relative;
+    overflow: hidden;
+    height: 50rem;
+}
+.eventImg{
+    width: 100%;
+    height: 37rem;
+    background:linear-gradient(to bottom, black 50%, rgb(0, 0, 0, .3), black 100%) ,url('../../img/lights.png');
+    margin-bottom: 5rem;
+    z-index: 1;
+}
+.eventsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+    flex-wrap: wrap;
+}
+.eventTitle{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.ev{
+    position: relative;
+}
+.ev::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 46.5%;
+    height: 3px;
+    width: 3rem;
+    background: gold;
+}
+
+.event{
+    height: 8rem;
+    width: 12rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.event h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+}
+.eventDet{
+    background: rgb(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    height: 20rem;
+    width: 99vw;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(100vw);
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+.eventShow{
+    transform: translateX(0)  translateY(-20rem);
+}
+
+.offerInfo{
+    padding: 20px 0 0 20px;
+    width: 24rem;
+    color: whitesmoke;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.closeEvent{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-size: 2rem;
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.askOffer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: rgb(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    transform: translateX(100vw);
+    transition: all 1s ease-in-out;
+}
+.askTitle{
+    margin-bottom: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+.formContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.formContainer input{
+    height: 2rem;
+    width: 15rem;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background: rgb(70, 70, 70);
+}
+.formContainer textarea{
+    height: 5rem;
+    width: 12rem;
+    border: none;
+    outline: none;
+    background: rgb(56, 56, 56);
+    padding: 5px 0 0 5px;
+}
+.closeAsk{
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    font-size: 2rem;
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.askShow{
+    transform: translateX(0);
+}

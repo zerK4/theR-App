@@ -1,0 +1,41 @@
+.menuItems{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 auto 10rem auto;
+}
+.menuName{
+    width: 70vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+}
+.searchSpace{
+    display: flex;
+}
+.searchBar{
+    height: 3rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+    background: #000;
+    color: white;
+    box-shadow: .1px .1px 5px 1px gold;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+.searchBar::placeholder{
+    color: rgb(129, 129, 129, .5);
+}
+.headerMove{
+    position: fixed;
+}

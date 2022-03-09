@@ -1,0 +1,28 @@
+.menuItem{
+    width: 19rem;
+    height: 25rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: .1px .1px 5px 1px gold;
+    position: relative;
+}
+.menuItem p{
+    margin-bottom: 0.5rem;
+}
+.menuImage{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: all 1s ease-in-out;
+}
+.menuImage:hover{
+    transform: scale(2);
+    box-shadow: 1px 1px 5px 1px gold;
+}
+.menuTitle{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}

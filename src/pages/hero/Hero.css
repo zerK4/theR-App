@@ -1,0 +1,33 @@
+.heroImg{
+    height: 37rem;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1) 5%, rgb(0, 0, 0, 0), rgb(0, 0, 0, 1) 100%), url('../../img/hero.png');
+}
+.hero{
+    position: relative;
+}
+.heroTitle{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    background: transparent;
+    font-size: 4.5rem;
+}
+.heroButton{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+@media(max-width: 600px){
+    .heroTitle{
+        width: 60vw;
+        font-size: 3.5rem;
+    }
+    .heroButton{
+        top: 85%;
+    }
+}
+@media(max-width:340px){
+    .heroTitle{
+        width: 100vw;
+    }
+}

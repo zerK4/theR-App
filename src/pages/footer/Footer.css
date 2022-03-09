@@ -1,0 +1,74 @@
+footer{
+    height: calc(100vh - 5rem);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.contactET{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.contactPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
+    background: rgb(255, 255, 255, .1);
+    box-shadow: .1px .1px 5px 1px gold;
+    height: 4rem;
+    width: 15rem;
+}
+.contactIcon{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.contactEmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem 0;
+    background: rgb(255, 255, 255, .1);
+    box-shadow: .1px .1px 5px 1px gold;
+    height: 4rem;
+    width: 20rem;
+}
+.contactForm{
+    width: 24rem;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+}
+.formContainer label{
+    margin: 0.5rem 0;
+    width: 90%;
+    display: flex;
+}
+.formContainer input{
+    width: 90%;
+}
+.formContainer textarea{
+    width: 90%;
+}
+.submitMessage{
+    margin-top: 1rem;
+}
+.socialSpace{
+    margin-top: 1rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.socialIcon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.socialIcon:hover{
+    text-shadow: 1px 1px 5px gold;
+}

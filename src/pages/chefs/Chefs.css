@@ -1,0 +1,140 @@
+.chefs{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.chefsContainer{
+    height: auto;
+    width: 60rem;
+    box-shadow: 1px 1px 5px 1px gold;
+}
+.chef{
+    display: flex;
+    position: relative;
+}
+.chefInfo{
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.chefInfo h1{
+    margin-bottom: 3rem;
+}
+.chef1Img{
+    height: 33rem;
+    width: 24.5rem;
+    margin: 20px;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0)), 
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0))
+    ,url('../../img/chef1.png');
+}
+.chef2Img{
+    height: 33rem;
+    width: 24.5rem;
+    margin: 20px;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0)), 
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0))
+    ,url('../../img/chef2.png');
+}
+.chef3Img{
+    height: 33rem;
+    width: 24.5rem;
+    margin: 20px;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0)), 
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0))
+    ,url('../../img/chef3.png');
+}
+
+.plates{
+    display: flex;
+    height: 15rem;
+    align-items: center;
+}
+.plate{
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.plate1{
+    height: 7.5rem;
+    width: 8rem;
+    object-fit: cover;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0)), 
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0))
+    , url('../../img/plate3.png');
+}
+.plate2{
+    height: 7.5rem;
+    width: 8rem;
+    object-fit: cover;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0)), 
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0))
+    , url('../../img/plate2.png');
+}
+.plate3{
+    height: 7.5rem;
+    width: 8rem;
+    object-fit: cover;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0)), 
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0, 0), rgb(0, 0, 0))
+    , url('../../img/plate1.png');
+}
+
+.chefButton{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.line{
+    width: 10rem;
+    height: 3px;
+    background: gold;
+    box-shadow: .1px .1px 5px 1px gold;
+    margin: 2rem auto;
+}
+
+@media(max-width:1000px){
+    .chefsContainer{
+        width: auto;
+    }
+    .chef{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plates{
+        margin-bottom: 3rem;
+    }
+    .chefButton{
+        bottom: 2%;
+    }
+} 
+@media(max-width:540px){
+    .chefsContainer{
+        width: 90vw;
+    }
+    .chef{
+        width: auto;
+    }
+    .chefImg{
+        width:24rem ;
+
+    }
+    .chefInfo{
+        margin-left: -7rem;
+    }
+    .chefDesc p{
+        display: flex;
+        flex-wrap: wrap;
+        width: 20rem;
+        height: auto;
+    }
+    .plates{
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+}
